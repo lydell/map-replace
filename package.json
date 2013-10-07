@@ -1,0 +1,38 @@
+{
+  "name": "map-replace",
+  "version": "1.0.0",
+  "author": "Simon Lydell",
+  "license": "GPLv3",
+  "description": "A command line tool that applies replacements described in a JSON map to files.",
+  "bin": "bin/map-replace",
+  "preferGlobal": true,
+  "repository": "lydell/map-replace",
+  "homepage": "https://github.com/lydell/map-replace",
+  "bugs": "https://github.com/lydell/map-replace/issues",
+  "keywords": [
+    "cli",
+    "command line",
+    "tool",
+    "replace",
+    "map",
+    "batch",
+    "JSON"
+  ],
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script",
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "dependencies": {
+    "escape-regexp-component": "~1.0.2",
+    "commander": "~2.0.0",
+    "ucurry": "0.0.1",
+    "async-each": "~0.1.3"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "mocha": "~1.13.0",
+    "coffee-script": "~1.6.3",
+    "sinon-chai": "~2.4.0",
+    "sinon": "~1.7.3"
+  }
+}
