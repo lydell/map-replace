@@ -16,7 +16,7 @@ see <http://www.gnu.org/licenses/>.
 ###
 
 {expect, sinon, readFile, writeFile} = require "./common"
-{modify, mapReplace, readStdin} = require "../lib/helpers"
+{modify, mapReplace, readStdin} = require "../src/helpers"
 
 
 describe "modify", ->
