@@ -19,8 +19,8 @@
     "JSON"
   ],
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script",
-    "prepublish": "rm -rf lib && coffee -cbo lib/ src/"
+    "test": "mocha",
+    "prepublish": "rm -f lib/* && coffee -cbo lib/ src/"
   },
   "dependencies": {
     "escape-regexp-component": "~1.0.2",
