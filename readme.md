@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/lydell/map-replace.png?branch=master)](https://travis-ci.org/lydell/map-replace)
+[![Build Status](https://travis-ci.org/lydell/map-replace.svg?branch=master)](https://travis-ci.org/lydell/map-replace)
 
 Overview
 ========

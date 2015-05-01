@@ -2,13 +2,11 @@
   "name": "map-replace",
   "version": "1.0.1",
   "author": "Simon Lydell",
-  "license": "GPLv3",
+  "license": "GPL-3.0+",
   "description": "A command line tool that applies replacements described in a JSON map to files.",
   "bin": "bin/map-replace",
   "preferGlobal": true,
   "repository": "lydell/map-replace",
-  "homepage": "https://github.com/lydell/map-replace",
-  "bugs": "https://github.com/lydell/map-replace/issues",
   "keywords": [
     "cli",
     "command line",
@@ -19,8 +17,7 @@
     "JSON"
   ],
   "scripts": {
-    "test": "mocha",
-    "prepublish": "rm -f lib/* && coffee -cbo lib/ src/"
+    "test": "mocha"
   },
   "dependencies": {
     "escape-regexp-component": "~1.0.2",
